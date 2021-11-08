@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Consumindo API ViaCep</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1 id="title">Consulta de CEP</h1>
+	<label for="cep" id="labelDoCep">Digite o cep:</label>
+	<div id="inputCep">
+		<input type="text" id="cep" name="cep">
+	</div>
+	<button onclick="consultaCep()" id="btnConsulta">Consultar</button>
+	<hr>
+	<div id="resultado">
+		<h2 id="textResultado">Resultado:</h2>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+* {
+	font-family: arial;
+}
+
+#labelDoCep {
+	font-size: 1.3rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#cep {
+	padding: 5px;
+	font-size: 1.1rem;
+	margin-top: 5px;
+}
+
+#btnConsulta {
+	border-radius: 2px;
+	border: 1px solid black;
+	display: block;
+	background: rgba(0, 0, 0, 0,7);
+	margin-top: 10px;
+	padding: 10px;
+	transition: all .2s;
+}
+
+#btnConsulta:hover {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#textResultado {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 600px) {
+
+	#title {
+		text-align: center;
+	}
+
+	#labelDoCep {
+		display: block;
+		text-align: center;
+	}
+
+	#inputCep {
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	#cep {
+		padding: 6px;
+		border: 1px solid rgba(0, 0, 0, 0.7);
+		border-radius: 5px;
+		font-size: 17px;
+	}
+
+	#btnConsulta {
+		width: 60%;
+		height: 40px;
+		margin: auto;
+	}
+
+	#resultado {
+		text-align: center;
+	}
+}
